@@ -1,38 +1,27 @@
 {
-  "name": "babel-es6-polyfill",
+  "name": "babelify-es6-polyfill",
   "version": "1.0.1",
-  "description": "A pure ES6 polyfill for Babel that only includes standardised features",
-  "scripts": {
-    "prepublish": "gulp build",
-    "postpublish": "gulp clean"
-  },
+  "description": "A pure ES5 and ES6 polyfill for babelify that only includes standardised features",
   "author": "Jason Berry <jason@thevagabond.net>",
   "license": "MIT",
   "keywords": [
     "es6",
     "ecmascript 6",
+    "es2015",
     "babel",
+    "babelify",
     "shim",
     "polyfill"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/JasonBerry/babel-es6-polyfill.git"
+    "url": "https://github.com/airmanx86/babelify-es6-polyfill.git"
   },
   "bugs": {
-    "url": "https://github.com/JasonBerry/babel-es6-polyfill/issues"
+    "url": "https://github.com/airmanx86/babelify-es6-polyfill/issues"
   },
   "dependencies": {
-    "core-js": "^0.8.1",
-    "regenerator-babel": "^0.8.13-2"
-  },
-  "devDependencies": {
-    "browserify": "^9.0.7",
-    "del": "^1.1.1",
-    "gulp": "^3.8.11",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.1.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "core-js": "^1.0.1",
+    "regenerator": "0.8.35"
   }
 }
