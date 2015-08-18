@@ -1,6 +1,6 @@
 {
   "name": "babelify-es6-polyfill",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "polyfill.js",
   "description": "A pure ES5 and ES6 polyfill for babelify that only includes standardised features",
   "author": "Jason Berry <jason@thevagabond.net>",
