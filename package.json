@@ -22,7 +22,7 @@
     "url": "https://github.com/airmanx86/babelify-es6-polyfill/issues"
   },
   "dependencies": {
-    "core-js": "^1.0.1",
-    "regenerator": "0.8.35"
+    "core-js": "1.1.0",
+    "regenerator": "0.8.36"
   }
 }
